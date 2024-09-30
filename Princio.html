@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure CSS auto-resizing canvas game</title>
+  <link rel="stylesheet" href="./Stilo.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+Try resizing the screen both vertically and horizontally. The canvas will maintain the defined width/height aspect ratio.
+-->
+
+<audio id="backgroundMusic" loop>
+  <source src="2 music.mpeg" type="audio/mpeg">
+  Tu navegador no soporta audio.
+</audio>
+<audio id="bounceSound">
+  <source src="ruta/a/tu/sonido-de-rebote.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio.
+</audio>
+
+
+<div class="container">
+  <canvas id="c" width="640" height="480" style="background:#000"></canvas>
+</div>
+<!-- partial -->
+  <script  src="./Mecanicas.js"></script>
+
+
+
+</body>
+</html>
